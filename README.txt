@@ -16,13 +16,6 @@ cálculos de KW total por ciudad, así como la hora pico por ciudad.
 
 Además el programa crea la una base de datos en caso de que la misma no exista para la inserción del nombre del operador.
 
-El programa tiene una limitante profesor, como lo validé con usted, por alguna razón que no logré entender cuando la base de datos no existe y se ingresa el nombre
-del operador este acepta solamente un caractér, por ejemplo ´h´, pero si se ingresa un string, la inserción falla, y esto causa que el programa se vara al try exeception
-notificando al usuario que hubo un error al ingresar el dato.
-
-Si se ingresa por ejemplo la letra ´h´, el comportamiento del programa será el esperado, ya que no pedirá el nombre nuevamente y solamente pedirá la estación. Posteriormente
-desplegará los cáculos solicitados en el enunciado. 
-
 
 Aprendzaje:
 
