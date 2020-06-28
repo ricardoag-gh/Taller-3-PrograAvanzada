@@ -94,7 +94,12 @@ else:
 
 
     Conex = instanciaBD.sqlite_create_database()
-    instanciaBD.insertar_new_row(Conex,instanciaOperador.nombre)
+    
+    #Lista temporal para nombre operador
+    tempListNombreOpera = list()
+    tempListNombreOpera.append(instanciaOperador.nombre)
+    # #Lista temporal para nombre operador
+    instanciaBD.insertar_new_row(Conex,tempListNombreOpera)
 
 
     #Validando que se ingrese un nombre de subestacion valido
