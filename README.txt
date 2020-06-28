@@ -8,6 +8,8 @@ Instrucciones para correr el programa :
 
 Por favor correrlo desde la carpeta raíz "Taller 3", ya que ahí se encuentra el archivo csv. Todas las importaciones se han ingresado en cada archivo donde son necesarias. 
 
+Tomar en cuenta que ya existe una base de datos creada con un nombre, por lo que si se corre el programa por primera vez, ya dicho nombre se debería desplegar y solamente se va a pedir la sub estación. De querer probar la funcionalidad de guardar el nombre en la base, el archivo de base de datos "mi_primera_base_datos" localizado en la ruta raíz del programa debe ser removido. Y al correr el programa nuevamente, y después ingresar el nombre, la proxíma vez que corramos el programa deberíamos ver la base de datos así como el nombre pre cargado en el programa.
+
 
 Descripción del proyecto :
 
